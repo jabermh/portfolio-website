@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
@@ -22,31 +21,81 @@
                 <i class="fa-brands fa-github"></i>
                 <span>Github</span>
             </a>
-
-
-             <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <i class="fa-brands fa-linkedin"></i>
                 <span>Linkedin</span>
             </a>
-
             <a href="mailto:mhjaber519@gmail.com">
-            <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-envelope"></i>
                 <span>Email</span>
             </a>
-
-
         </div>
     </nav>
 
     <main>
-        <section> </section>
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'am Jaber!</h2>
+                <p>I am currently pursuing my undergraduate studies in Computer Science and Engineering at Metropolitan University. Throughout my academic journey, I have developed a growing interest in several dynamic areas within CSE, such as web development, Competitive Programming, artificial intelligence, cybersecurity, software engineering, and research in emerging technologies. I am particularly drawn to sectors that combine creativity with problem-solving and real-world impact. I am eager to explore these fields further and build practical skills that align with modern industry demands, while also contributing to research that pushes the boundaries of innovation.</p>
+                <div class="links">
+                    <a href="#skills"><i class="fa-solid fa-code"></i><span>Skills</span></a>
+                    <a href="#testimony"><i class="fa-solid fa-pen"></i><span>Testimony</span></a>
+                    <a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="jaberpf.jpg" alt="jaber">
+            </div>
+        </section>
 
-         <section id="skills"> </section>
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I offer a well-rounded skill set that spans core programming languages—Java, C, C++, and Python—and front‑end web development with HTML, CSS, and Bootstrap. I’m adept at crafting responsive, user‑friendly interfaces and solving complex problems with clean, efficient code. In addition, my media management experience enables me to plan and execute impactful content strategies, while my community leadership background helps me coordinate teams and drive collaborative initiatives.
+            </div>
+            <div class="cells">
+                <div class="cell"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                <div class="cell"><i class="fa-brands fa-css3"></i><span>CSS</span></div>
+                <div class="cell"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                <div class="cell"><i class="fa-brands fa-node"></i><span>Node.js</span></div>
+                <div class="cell"><i class="fa-brands fa-react"></i><span>React</span></div>
+            </div>
+        </section>
 
-          <section id="testimony"> </section>
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="Muzahidul Haque Jaber.jpg" alt="Muzahidul Haque Jaber">
+                    <p>Muzahidul Haque Jaber</p>
+                </div>
+                <div class="text">
+                    "I bring a diverse toolkit of technical and leadership skills to every project. On the technical side, I am proficient in core programming languages—including Java, C, C++, and Python—and excel at front‑end web development using HTML, CSS, and Bootstrap to build responsive, user‑friendly interfaces. Beyond code, I have hands‑on experience in media management, where I plan and execute content strategies to engage audiences effectively. Coupled with my community leadership background, I thrive at coordinating teams, driving initiatives, and fostering collaborative environments that turn ideas into impactful results."
+                </div>
+            </div>
+        </section>
 
-           <section id="contact"> </section>
-        
+        <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+        <div class="text">
+       Feel free to reach out to me for collaboration, questions, or any exciting opportunities. Whether it’s a technical query or a new project idea, I’m always open to a conversation. Let’s connect and make something great together!
+
+
+        </div>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+             <label for="email">Email</label>
+            <input type="text" id="email">
+
+                      <label for="message">Message</label>
+                      <textarea id="message" cols="30" rows="10"></textarea>
+                      <button type="submit">Send Message</button>
+        </form>
+</div>
+        </section>
     </main>
 </body>
 </html>
